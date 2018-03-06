@@ -1,0 +1,47 @@
+body{
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    margin-left: 10%;
+  }
+  h1{
+      text-align: center;
+  }
+  #navigation{
+    margin-left: 15%;
+  }
+  a{
+    color: darkblue;
+    font-style: italic;
+    font-size: 16px;
+  }
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+  }
+  
+  form{
+      padding: 5px;
+      
+  }
+  section{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    margin-top: 20%;
+   
+  }
+  p{
+    font-size: 40px;
+  }
